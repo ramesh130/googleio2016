@@ -44,5 +44,61 @@
   c. Maintainence window (exponentially increasing) to allow activities to do work
   d. Maintainence window is followed by doze modes
   e. In N the stationary condition is removed
+7. Project Svelte (System Health check)
+  a. All apps start check, no action sleep. Activity manager has to start and kill app
+  b. ConnectivityManager.CONNECTIVITY_ACTION, Camera.ACTION_NEW_VIDEO, Camera.ACTION_NEW_IMAGE - Goodbye
+  c. Jobscheduler - New API for Ask when content changed when the job is scheduled
+8. Data Saver
+  a. User can tell the system the amount of data to be used
+  b. Tell which app allowed to use data or not
+9. Direct Boot
+  a. If system reboots, on lock screen, some apps allowed to run so you get notification like message etc
+10. Specific directory access permission
+11. Android for work
+  a. Work mode - Turn off apps related to work mode
+  b. Work Challenge - PIN only for 1 work App, once entered, applicable system wide
+12. Runtime
+  a. Faster interpreter 
+  b. JIT
+  c. Ahead of Time (AOT) compilation - Hotspots only
+  d. All 3 at same time
+  e. Improves install time
+13. New packages
+  a. ICU4J - Unicode and globalization support
+  b. FunctionalInterface - for functional programming
+  c. java.util.function
+  d. java.util.stream
+  e. To use Java 8 - switch to new Jack compiler
+  f. Default and Static interface methods - not backward compatible
+  g. Add new methods and provide default implementation in existing interface
+  h. Useful to move APIs forward without breaking existing code
+  i. Also useful for Adapter pattern
+  j. Static methods on interfaces
+14. Repeating annotations
+15. Java Audio Latency 
+  a. Reduce audio latency in Java
+  b. 40 - 70 ms
+  c. set flag AudioAttributes.FLAG_LOW_LATENCY
+  d. Dynamically resize buufers if frequent underuns
+16. Renderscripts
+17. OpenGL-ES
+  a. Android extension pack
+18. VULCAN
+  a. Low level graphics, lower than OpenGL
+  b. Driver - also available on WIndows & Linux
+19. adb shell
+  a. More features of full shell
+  b. performance improvements
+20. NDK
+  a. CLANG 2.8 - C interface for LLVM
+  b. GCC deprecated
+  c. ARM toochain default to ARM7 architecture
+21. VR
+22. Support library
+  a. Night Mode
+23. UI Goodies
+  a. Vector Drawable perfoemance improvements - 20 to 90%
+  b. FloatProperty/IntProperty
+24. Android Instant Apps
   
   
