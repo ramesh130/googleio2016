@@ -1,0 +1,48 @@
+#What's new in Android
+
+1. Constraint Layout
+  a. Brand new layout
+  b. available in un-bundled library
+  c. Backward compatible to Gingerbread
+  d. Features-
+    1. Shows correct margin
+    2. Auto alignment
+    3. Designed runs at 60 fps, so realtime feedback
+    4. Shows preview of constraints
+    5. Autoconnect
+    6. Automatic inference of constraints
+2. Multiple windows
+  a. Split Screen
+    1. Side by side
+    2. Top to bottom
+    3. Opt in by default, API to prevent it
+    4. API for default and minimum sizing
+    5. API for window mode chnage notification
+    6. API to check if in multi window mode
+    7. Intent to ask for another activity to be side by side yours
+  b. Picture in Picture mode - Android TV
+3. Drag and Drop
+  a. Permission driven
+  b. API to start and cancel the action
+  c. drag shadow - update the thumbnail of item being dragged
+4. Notifications
+  a. New templates
+  b. Bundled notification - group notification together
+  c. Direct reply
+  d. Quick settings is editable
+  e. Display size - changes DPI of device at runtime
+  f. 0.85 to 1.45
+  g. Avoid px
+  h. support sw320p
+  i. Text size chnages the size of text, display size chnages the size of everything on UI
+5. Locales
+  a. Select multiple languages and reorder them
+  b. New languages and variants
+6. Doze mode
+  a. Since Marshmallow - restricts network, services, defers jobs, syncs, alarms
+  b. Kicks in screen is off, stationary and on battery
+  c. Maintainence window (exponentially increasing) to allow activities to do work
+  d. Maintainence window is followed by doze modes
+  e. In N the stationary condition is removed
+  
+  
