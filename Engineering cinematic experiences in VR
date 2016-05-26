@@ -1,0 +1,69 @@
+Engineering cinematic experiences in VR
+
+https://events.google.com/io2016/schedule?sid=64d50c09-0cef-e511-a517-00155d5066d7#day1/64d50c09-0cef-e511-a517-00155d5066d7
+
+1. Look around - 360 degrees
+2. Depth of field - stereoscopic
+3. Spatial Audio
+4. JUMP - VR creation platform
+	a. Camera spec
+	b. assembler - stictching
+	c. Playback - Youtube
+5. Video Projections & Playback
+	a. How to create immersion
+		1. Pick a sphere to plane projection to represent 360 video
+		2. Increase video resolution until pixels >= display + optics
+		3. Double resolution to account for stereo
+	b. Globe -> Map
+	c. Approximating resolution
+		1. 2560 hor pix/2 eye = 1280 pix
+		2. 1280 pix/100 degrees field of view = 12.8 pix/degree
+		3. 12.8 pix/degree x 360 horizontal degrees = 4608 pixels
+		4. 4608x2304 pix = 10.6 MP (mono)
+		5. 4608x4608 = 21.2 MP (stereo)
+		6. 3840x2160 = 8.3 MP (4k)
+		7. +27% over 4K res for mono, +155% for stereo
+	d. Projection challenges
+		a. Impossible to project sphere to plane without stretching (Peel orange)
+		b. Visual quality changes based on user view direction (because of 1)
+		c. Need to consider best and worst areas of visual quality
+			1. Earth - Poles best quality and equator worst
+			2. Same for picture - top bottom more pix and middle less pix
+			3. Cubemap - beast at periphery of cube map and worst at centre of cubemap
+			4. Equiangular cube map
+6. Spatial Audio
+	a. Fully represents sound space - where its coming from
+	b. Loction in space, Capture the environment, immerse the listener
+	c. 2 ears - headphones - 2 channel audio - stream 
+	d. Latency makes poor audio experience
+	e. Full audio scene - Surround sound - for front facing experience
+	f. Object based audio
+		1. for each source mono audio + metadata
+		2. Similar to audio exp for games
+		3. Great for post production
+		4. More sources -> more data for objs
+	g. Ambisonics
+		1. Full sphere spatial audio
+		2. Scene based rep - approx of scene
+		3. great for streaming
+	h. First order ambisonics
+		1. 2 mics -> stereo image
+		2. 3D extension of mid side stereo - vritual micrphones on sphere
+		3. Spehrical harmonics - omnidirn, left right, top bottom etc
+		4. Room for improvement
+	i. Higher order ambisonics
+		1. infinetly extensible
+		2. Third order
+		3. better performance
+	j. Streaming ambisonics
+		1. Audio tech not built for ambisonics
+		2. Ogg vorbis
+		3. Not ideal - different bit distribution for diff channels
+	k. opus
+		1. free and open audio codec
+		2. ambisonics compression
+	l. Creation
+		1. Hard
+		2. Jump inspector - Android app to preview video
+7. Ecosystem
+	github.com/google/spatial-media/
