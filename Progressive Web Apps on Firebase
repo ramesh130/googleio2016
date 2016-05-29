@@ -1,0 +1,37 @@
+Progressive Web Apps on Firebase
+
+https://events.google.com/io2016/schedule?sid=ff641ff7-0bef-e511-a517-00155d5066d7#day3/ff641ff7-0bef-e511-a517-00155d5066d7
+
+1. Bridge gap between mobile apps and mobile web
+2. Unique -
+	a. First class native mobile exp
+	b. First class connectivty experience
+3. New set of practises and tech help make good web apps
+4. Rapid prototype
+	a. Auth
+	b. Real Time Database
+	c. Hosting
+5. Progressive web apps build progressively
+6. Web app manifest
+	a. JSON metadata
+	b. app-manifest.firebaseapp.com - online manifest generator tool
+	c. Use as app - How?
+7. Each website is around 2 MB
+8. Offline the app shell
+	a. Service worker - JS cache available in most browsers
+	b. Needs SSL
+	c. sw-precache - open soure node.js. Generate service worker
+	d. Static files and dynamic files (Google fnts)
+	e. Service worker at root of web app
+9. Offline Data
+	a. RT DB -> Indexed DB (offline DB in Browsers)
+	b. PolymerFire - Polymer binding to firebase
+	c. app-storage - easy way to mirror offline
+10. whatwebcando.today - features of web on Mobile
+
+Links- bit.ly/pwas-on-firebase
+github.com/mbleigh/pwas-on-firebase
+youtube.com/firebase
+
+Which tool he used for coding and running local server?
+Which tool he used to select the material color?
