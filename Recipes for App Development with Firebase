@@ -1,0 +1,22 @@
+Recipes for App Development with Firebase
+
+https://events.google.com/io2016/schedule?sid=c3641ff7-0bef-e511-a517-00155d5066d7#day3/c3641ff7-0bef-e511-a517-00155d5066d7
+
+1. Authentication
+2. Storage
+3. Realtime DB
+4. Cloud Messaging
+5. Notification
+6. Remote Config
+7. Google Adwords
+8. Dynamic Links
+9. Invites
+10. Analytics
+11. App indexing - Content within App
+12. Admob
+13. Test lab
+14. Crash Reporting
+15. Hosting
+
+https://github.com/firebase/friendlypix
+https://codelabs.developers.google.com/codelabs/firebase-web/index.html
