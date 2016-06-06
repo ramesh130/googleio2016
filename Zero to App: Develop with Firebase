@@ -1,0 +1,15 @@
+Zero to App: Develop with Firebase
+
+https://events.google.com/io2016/schedule?sid=c8641ff7-0bef-e511-a517-00155d5066d7#day3/c8641ff7-0bef-e511-a517-00155d5066d7
+
+1. Firebase Scales automatically
+2. JSON tree data structure in DB
+3. Chat App
+4. Database connect - No network check, no background thread, no polling etc.
+5. Disconnection handled seamlesslessly, no extra coding require
+6. Authentication - easy sign in
+7. Session - No need to login every time, but if phone lost, protect data
+8. Password reset flow - UI as well in your own domain
+9. Anonymous accounts - attach credentials to existing record eg. add to cart and then sign in
+10. Storage - upload/download, Auto scale, Vision API, user access    
+11. Docs, dev tools (android studio integration), support (free and paid)
