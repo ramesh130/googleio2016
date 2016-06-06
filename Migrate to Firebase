@@ -1,0 +1,45 @@
+Migrate to Firebase
+
+https://events.google.com/io2016/schedule?sid=b4641ff7-0bef-e511-a517-00155d5066d7#day1/b4641ff7-0bef-e511-a517-00155d5066d7
+
+1. Analytics
+	a. Active users - Daily, weekly, monthly
+	b. Retention cohorts - User engagement
+	c. Age filter - by Firebase, app not providing
+	d. Free Free Free
+	e. Custome events to send 
+	f. Audiences - Group users
+2. Crash Reporting
+	a. How many crashes
+	b. Raw errors -> clusters (collection of crashes) -> no if users effected
+	c. Device details, country, network type etc
+3. Firbase Hosting
+	a. single command deployment
+	b. Rollback
+	c. CDN
+	d. Secure - SSL first
+	e. Custom domains - Free
+4. Remote Config
+	a. Dynamic content
+	b. Targetting
+	c. Ease of use - Offline defaults, Fetch, access
+5. Dynamic links 
+	a. Deep links within app
+	b. Invites
+	c. Indexing - Deep links into apps content in search results
+6. Test lab
+7. Adwords - Target ads to audience
+8. Admob - Host ads in app
+9. Notifications
+	a. Google Cloud messaging (Firebase cloud messaging)
+	b. Targetting
+	c. Integrate with Ana;ytics - whom to engage and how well did you engage
+10. Authentication
+	a. Standard auths
+	b. Own auth
+11. Storage
+	a. Petabyte scale google cloud storage product
+	b. Acts like S3 Bucket - standalone application
+12. Real Time Database
+	a. Data sync - pushed to device in millisecond
+	
